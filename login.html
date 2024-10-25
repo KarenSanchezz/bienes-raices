@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css"> <!-- Enlace al archivo CSS -->
+</head>
+<body>
+    <div class="ie-panel">
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/">
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today.">
+        </a>
+    </div>
+    <div class="preloader">
+        <div class="preloader-logo">
+            <img src="images/favicon.jpeg" alt="" width="151" height="44" srcset="images/favicon.jpeg 2x">
+        </div>
+        <div class="preloader-body">
+            <div id="loadingProgressG">
+                <div class="loadingProgressG" id="loadingProgressG_1"></div>
+            </div>
+        </div>
+    </div>
+    <div class="rd-navbar-wrap">
+        <nav class="rd-navbar rd-navbar-corporate">
+            <div class="rd-navbar-aside-outer">
+                <div class="rd-navbar-aside">
+                    <div class="rd-navbar-panel">
+                        <button class="rd-navbar-toggle" data-rd-navbar-toggle="#rd-navbar-nav-wrap-1"><span></span></button>
+                        <a class="rd-navbar-brand" href="login.html">
+                            <img src="images/favicon.jpeg" alt="" width="151" height="44" srcset="images/favicon.jpeg 2x">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Sección del formulario de login -->
+    <div class="login-container">
+        <h2>Iniciar Sesión</h2>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Usuario" required>
+            <input type="password" id="password" placeholder="Contraseña" required>
+            <button type="submit">Iniciar Sesión</button>
+            <p id="loginMessage"></p>
+        </form>
+    </div>
+
+    <script src="js/scripts.js"></script> <!-- Enlace al archivo JS -->
+</body>
+</html>

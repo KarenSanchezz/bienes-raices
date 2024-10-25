@@ -1,0 +1,57 @@
+/* Estilos para el formulario de login */
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #f4f4f4;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.login-container button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}
+
+#loginMessage {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Otros estilos necesarios para la página */
+.ie-panel {
+    display: none;
+    background: #212121;
+    padding: 10px 0;
+    box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);
+    clear: both;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {
+    display: block;
+}
